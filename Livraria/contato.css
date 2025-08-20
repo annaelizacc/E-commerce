@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+header{
+    height: 10vh;
+    background-color: #7BCCE9;
+    
+}
+
+.cabeca{
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+.buscar{
+    margin-top: 2%;
+    height: 4vh;
+    width: 80%;
+    border: white;
+    border-radius: 45px;
+}
+
+.icones{
+
+    height: 4vh;
+    width: 100px;
+}
+
+.icones2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 10vh;
+    width: 200px;
+    margin-left: 15%;
+}
+
+.icns{
+    margin-right: 5px;
+    margin-top: 2%;
+    height: 4vh;
+    width: 120px;
+
+}
+
+.cinza {
+    background-color: #FFFFFF;
+    height: 5vh;
+    color: azure;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.cinza a{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+}
+
+.texto {
+    font-weight: 400;
+    color: white;
+    font-size: 30px;
+    margin-top: 2%;
+}
+
+.banner {
+    height: 25vh;
+    width: 100%;
+}
+
+.txt2 {
+    color: #242525;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.txt2:hover {
+    background-color: #7BCCE9;
+    transition: 0.6s;
+}
+
+#fundo {
+    background-image: url(imagens/pattern.jpg);
+    height: 90vh;
+    width: 100%;
+
+}
+
+
+#quadrado {
+   
+    padding: 4%;
+    height: 40vh;
+    width: 35%;
+    background-color: #7BCCE9;
+    border: 1px solid #678ea8;
+    border-radius: 50px;
+    margin-left: 5%;
+}
+
+.form{
+    height: 3vh;
+    width: auto;
+}
+
+#coluna1{
+    text-align: center;
+    color: #0f0f0f;
+    font-size: 25px;
+}
+
+#quadrado2 {
+    padding: 4%;
+    height: 40vh;
+    width: 35%;
+    background-color: #7BCCE9;
+    border: 1px solid #678ea8;
+    border-radius: 50px;
+    margin-left: 50%;
+}
+
+#coluna2{
+    text-align: center;
+    color: #0f0f0f;
+    font-size: 25px; 
+}
+
+#aivei{
+    height: 3vh;
+    width: auto;
+}
+
+#rodape{
+    background-color: #7BCCE9;
+    height: 30vh;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+h1{
+    color: #FFFFFF;
+    padding-top: 5%;
+}
