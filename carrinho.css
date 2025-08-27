@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+header{
+    height: 10vh;
+    background-color: #7BCCE9;
+    
+}
+
+.cabeca{
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+.buscar{
+    margin-top: 2%;
+    height: 4vh;
+    width: 80%;
+    border: white;
+    border-radius: 45px;
+}
+
+.icones{
+
+    height: 4vh;
+    width: 100px;
+}
+
+.icones2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 10vh;
+    width: 200px;
+    margin-left: 15%;
+}
+
+.icns{
+    margin-right: 5px;
+    margin-top: 2%;
+    height: 4vh;
+    width: 120px;
+
+}
+
+.cinza{
+    background-color: #FFFFFF;
+    height: 5vh;
+    color: azure;
+    display: flex;
+}
+
+.texto{
+    font-weight: 400;
+    margin-top: 2%;
+    color: white;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.txt2{
+    color: #242525;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.txt2:hover{
+    background-color: #7BCCE9;
+    transition: 0.6s;
+}
+
+#fundo{
+    background-image: url(imagens/pattern.jpg);
+    font-size: 45px;
+    font-family: "Kumar One", serif;
+}
+
+.imagem{
+    height: 60vh;
+
+}
+
+.hh{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+    width: 40%;
+    height: 20vh;
+}
+
+#aivei{
+    height: 3vh;
+    width: auto;
+}
+
+#rodape{
+    background-color: #7BCCE9;
+    height: 30vh;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+h1{
+    color: #FFFFFF;
+    padding-top: 5%;
+}
+
+
+/* Telas menores que 550px */
+@media (max-width: 550px) {
+    .cabeca {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    .buscar {
+        width: 90%;
+        margin-top: 10px;
+    }
+    .icones2 {
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+    }
+    .texto {
+        font-size: 22px;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .cinza {
+        flex-direction: column;
+        height: auto;
+    }
+    .txt2 {
+        width: 100%;
+        font-size: 22px;
+        margin: 5px 0;
+    }
+    #fundo {
+        font-size: 28px;
+        text-align: center;
+    }
+    .imagem {
+        height: 30vh;
+        width: 80%;
+    }
+    .hh {
+        font-size: 18px;
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+    #rodape {
+        font-size: 18px;
+        height: auto;
+        padding: 10px 0;
+    }
+    h1 {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+}
+
+/* Telas entre 550px e 1100px */
+@media (min-width: 551px) and (max-width: 1100px) {
+    .cabeca {
+        flex-direction: row;
+        width: 95%;
+        height: auto;
+        align-items: center;
+    }
+    .buscar {
+        width: 60%;
+        margin-top: 10px;
+    }
+    .icones2 {
+        width: 120px;
+        margin-left: 5%;
+        justify-content: flex-end;
+    }
+    .texto {
+        font-size: 26px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .cinza {
+        flex-direction: row;
+        height: auto;
+    }
+    .txt2 {
+        width: 22%;
+        font-size: 24px;
+        margin: 0 2px;
+    }
+    #fundo {
+        font-size: 36px;
+        text-align: center;
+    }
+    .imagem {
+        height: 40vh;
+        width: 60%;
+    }
+    .hh {
+        font-size: 22px;
+        margin-left: 10%;
+        width: 80%;
+        height: auto;
+    }
+    #rodape {
+        font-size: 22px;
+        height: auto;
+        padding: 20px 0;
+    }
+    h1 {
+        font-size: 24px;
+        padding-top: 10px;
+    }
+}
+
+/* Telas acima de 1100px */
+@media (min-width: 1101px) {
+    .cabeca {
+        flex-direction: row;
+        width: 80%;
+        height: 10vh;
+        margin: auto;
+    }
+    .buscar {
+        width: 80%;
+        margin-top: 2%;
+    }
+    .icones2 {
+        width: 200px;
+        margin-left: 15%;
+        justify-content: flex-end;
+    }
+    .texto {
+        font-size: 35px;
+        margin-top: 2%;
+        margin-left: 50px;
+    }
+    .cinza {
+        flex-direction: row;
+        height: 5vh;
+    }
+    .txt2 {
+        width: 15%;
+        font-size: 30px;
+    }
+    #fundo {
+        font-size: 45px;
+        text-align: left;
+    }
+    .imagem {
+        height: 60vh;
+        width: auto;
+    }
+    .hh {
+        font-size: 28px;
+        margin-left: 20%;
+        width: 40%;
+        height: 20vh;
+    }
+    #rodape {
+        font-size: 30px;
+        height: 30vh;
+        padding: 0;
+    }
+    h1 {
+        font-size: 30px;
+        padding-top: 5%;
+    }
+}
+

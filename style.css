@@ -1,0 +1,399 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+header{
+    height: 10vh;
+    background-color: #7BCCE9;
+    
+}
+
+.cabeca{
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+.buscar{
+    margin-top: 2%;
+    height: 4vh;
+    width: 80%;
+    border: white;
+    border-radius: 45px;
+}
+
+.icones{
+
+    height: 4vh;
+    width: 100px;
+}
+
+.icones2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 10vh;
+    width: 200px;
+    margin-left: 15%;
+}
+
+.icns{
+    margin-right: 5px;
+    margin-top: 2%;
+    height: 4vh;
+    width: 120px;
+
+}
+
+.cinza {
+    background-color: #FFFFFF;
+    height: 5vh;
+    color: azure;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.cinza a{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+}
+
+.texto {
+    font-weight: 400;
+    color: white;
+    font-size: 30px;
+    margin-top: 2%;
+}
+
+.banner {
+    height: 28vh;
+    width: 100%;
+}
+
+.txt2 {
+    color: #242525;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.txt2:hover {
+    background-color: #7BCCE9;
+    transition: 0.6s;
+}
+
+#fundo {
+    background-image: url(imagens/pattern.jpg);
+    height: 230vh;
+    width: 100%;
+
+}
+
+#leitura{
+    display: flex;
+    height: 25vh;
+    width: 15%;
+    margin-left: 24%;
+
+}
+
+#espaco {
+    height: 15vh;
+}
+
+
+#space{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    height: 30vh;
+    margin-top: 15%;
+}
+
+#espaco2{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    height: 30vh;
+    margin-top: 4%;
+}
+
+#galeria{
+    
+    
+    width: 100%;
+    
+    margin-top: -20%;
+    background-image: url(imagens/pattern.jpg);
+    padding: 30%;
+}
+
+#espaco3{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    height: 30vh;
+    margin-bottom: -5%;
+    margin-top: 4%;
+
+}
+
+#aivei{
+    height: 3vh;
+    width: auto;
+}
+
+#rodape{
+    background-color: #7BCCE9;
+    height: 30vh;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+h1{
+    color: #FFFFFF;
+    padding-top: 5%;
+}
+
+/* #bb{
+    height: 38vh;
+    border: solid;
+    overflow: hidden;
+    position: relative;
+}
+
+#img01{
+    position: absolute;
+    left: 40%;
+    top: 90%;
+    z-index: 10;
+}
+
+#img02{
+    position: absolute;
+    left: 45%;
+    top: 90%;
+    z-index: 10;
+}
+
+#img03{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    z-index: 10;
+} */
+
+
+
+@media (max-width: 550px) {
+    .cabeca {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    .buscar {
+        width: 90%;
+        margin-top: 10px;
+    }
+    .icones2 {
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+    }
+    .texto {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .cinza {
+        flex-direction: column;
+        height: auto;
+    }
+    .cinza a {
+        width: 100%;
+        font-size: 22px;
+        margin: 5px 0;
+    }
+    #leitura {
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+        align-items: center;
+    }
+    #leitura img {
+        margin-bottom: 10px;
+        width: 80%;
+        height: auto;
+    }
+    #space, #espaco2, #espaco3 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .imgsG {
+        width: 80%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    #galeria {
+        padding: 10px;
+        margin-top: 0;
+    }
+    #rodape {
+        font-size: 18px;
+        height: auto;
+        padding: 10px 0;
+    }
+    h1 {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+}
+
+/* Telas entre 550px e 1100px */
+@media (min-width: 551px) and (max-width: 1100px) {
+    .cabeca {
+        flex-direction: row;
+        width: 95%;
+        height: auto;
+        align-items: center;
+    }
+    .buscar {
+        width: 60%;
+        margin-top: 10px;
+    }
+    .icones2 {
+        width: 120px;
+        margin-left: 5%;
+        justify-content: flex-end;
+    }
+    .texto {
+        font-size: 26px;
+        margin-top: 10px;
+    }
+    .cinza {
+        flex-direction: row;
+        height: auto;
+    }
+    .cinza a {
+        width: 22%;
+        font-size: 24px;
+        margin: 0 2px;
+    }
+    #leitura {
+        flex-direction: row;
+        width: 60%;
+        margin-left: 20%;
+        height: auto;
+        align-items: center;
+    }
+    #leitura img {
+        width: 22%;
+        height: auto;
+        margin: 0 1%;
+    }
+    #space, #espaco2, #espaco3 {
+        flex-direction: row;
+        justify-content: center;
+        height: auto;
+        gap: 2%;
+        margin-top: 20px;
+    }
+    .imgsG {
+        width: 22%;
+        height: auto;
+    }
+    #galeria {
+        padding: 5%;
+        margin-top: 0;
+    }
+    #rodape {
+        font-size: 22px;
+        height: auto;
+        padding: 20px 0;
+    }
+    h1 {
+        font-size: 24px;
+        padding-top: 10px;
+    }
+}
+
+/* Telas acima de 1100px */
+@media (min-width: 1101px) {
+    .cabeca {
+        flex-direction: row;
+        width: 80%;
+        height: 10vh;
+        margin: auto;
+    }
+    .buscar {
+        width: 80%;
+        margin-top: 2%;
+    }
+    .icones2 {
+        width: 200px;
+        margin-left: 15%;
+        justify-content: flex-end;
+    }
+    .texto {
+        font-size: 30px;
+        margin-top: 2%;
+    }
+    .cinza {
+        flex-direction: row;
+        height: 5vh;
+    }
+    .cinza a {
+        width: 15%;
+        font-size: 30px;
+    }
+    #leitura {
+        flex-direction: row;
+        width: 15%;
+        margin-left: 24%;
+        height: 25vh;
+        align-items: center;
+    }
+    #leitura img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    #space, #espaco2, #espaco3 {
+        flex-direction: row;
+        justify-content: center;
+        height: 30vh;
+        gap: 2%;
+        margin-top: 4%;
+    }
+    .imgsG {
+        width: 100%;
+        height: auto;
+    }
+    #galeria {
+        padding: 30%;
+        margin-top: -20%;
+    }
+    #rodape {
+        font-size: 30px;
+        height: 30vh;
+        padding: 0;
+    }
+    h1 {
+        font-size: 30px;
+        padding-top: 5%;
+    }
+}
+
+
